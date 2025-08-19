@@ -62,7 +62,7 @@ public class AppConfig {
 				//These are the Allowed origins
 				cfg.setAllowedOrigins(Arrays.asList(
 						"https://localhost:3000",
-						"https://myfrontend.com"
+						"https://myfrontend.com"// I vishal will give the frontend url my buudy teju
 						));
 				//these are the Allowed crud methods and more 
 				cfg.setAllowedMethods(Collections.singletonList("*"));
